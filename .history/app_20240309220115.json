@@ -3,7 +3,7 @@
     "name": "MyFitnessPal",
     "slug": "MyFitnessPal",
     "version": "1.0.0",
-    "scheme": "myfitnesspal",
+    "scheme": "myfitscheme",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
