@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native'
+import { AntDesign } from '@expo/vector-icons'
 import FoodListItem from '../components/FootListItem'
 
 export default function App() {

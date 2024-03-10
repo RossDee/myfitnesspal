@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
-import FoodListItem from '../components/FootListItem'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FoodListItem item={{ label: 'Pizza', cal: 75, brand: 'Dominos' }} />
-      <FoodListItem item={{ label: 'Apple', cal: 55, brand: 'Dominos' }} />
+      <View
+        style={{ backgroundColor: 'gainsboro', padding: 10, borderRadius: 5 }}
+      >
+        <Text style={{ fontWeight: 'bold', fontSize: 16 }}>Pizza</Text>
+        <Text style={{ color: 'gray' }}>A dish of Italian origin</Text>
+      </View>
     </View>
   )
 }
@@ -14,8 +17,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+
     justifyContent: 'center',
     padding: 20,
-    gap: 5,
   },
 })
